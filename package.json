@@ -1,0 +1,18 @@
+{
+  "name": "img",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xuxiaolong",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "formidable": "^1.1.1",
+    "jade": "^1.11.0",
+    "silly-datetime": "^0.1.2"
+  }
+}

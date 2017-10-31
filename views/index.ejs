@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小相册</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        .row{ text-align: center}
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">全部相册</a>
+        </div>
+        <div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">上传</a></li>
+                <li><a href="#">展示</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container">
+        <div class="row">
+            <% for( var i=0;i<items.length;i++){%>
+            <div class="col-sm-6 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img src="images/wjj.jpg"
+                     alt="通用的占位符缩略图">
+                </a>
+                <h3><%= items[i]%></h3>
+            </div>
+
+            <%}%>
+        </div>
+
+</div>
+
+</body>
+</html>
